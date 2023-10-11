@@ -9,3 +9,5 @@ postcss.config.js
 .prettierrc
 .prettierignore
 .npmrc
+README.md
+LICENSE.md

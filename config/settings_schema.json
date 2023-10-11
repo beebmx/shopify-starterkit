@@ -5,7 +5,7 @@
     "theme_version": "0.0.1",
     "theme_author": "Bee business",
     "theme_documentation_url": "https://github.com/beebmx/shopify-starterkit",
-    "theme_support_url": "https://github.com/beebmx/shopify-starterkit"
+    "theme_support_url": "https://github.com/beebmx/shopify-starterkit/issues"
   },
   {
     "name": "t:settings_schema.logo.name",
