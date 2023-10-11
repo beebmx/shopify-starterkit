@@ -1,0 +1,16 @@
+{% comment %}
+  Usage:
+    {% render 'settings.colors' %}
+{% endcomment %}
+
+{% style %}
+  :root {
+    --color-text: {{ settings.colors_text.rgb }} {{ settings.colors_text.saturation }}% {{ settings.colors_text.lightness }}%;
+    --color-background: {{ settings.colors_background.rgb }} {{ settings.colors_background.saturation }}% {{ settings.colors_background.lightness }}%;
+
+    --color-primary: {{ settings.colors_primary.rgb }} {{ settings.colors_primary.saturation }}% {{ settings.colors_primary.lightness }}%;
+    --color-contrast: {{ settings.colors_contrast.rgb }} {{ settings.colors_contrast.saturation }}% {{ settings.colors_contrast.lightness }}%;
+
+    --color-secondary: {{ settings.colors_secondary.rgb }} {{ settings.colors_secondary.saturation }}% {{ settings.colors_secondary.lightness }}%;
+  }
+{% endstyle %}

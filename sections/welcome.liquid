@@ -1,0 +1,28 @@
+<section>
+  <div class="flex h-screen w-screen flex-col items-center justify-center gap-8">
+    {% render 'settings.beeb.mx' %}
+    {% if section.settings.title != blank %}
+      <h1 class="text-default font-w-heading font-heading text-2xl sm:text-3xl lg:text-4xl">
+        {{ section.settings.title }}
+      </h1>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.welcome.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.welcome.title.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Welcome"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "welcome",
+      "settings": {
+        "title": "Starterkit"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+    "endWithNewLine": true,
+    "tabWidth": 2,
+    "plugins": [
+        "@shopify/prettier-plugin-liquid",
+        "prettier-plugin-tailwindcss"
+    ],
+    "overrides": [
+        {
+            "files": ["*.js"],
+            "options": {
+                "printWidth": 120,
+                "semi": false,
+                "singleQuote": true
+            }
+        }, {
+            "files": ["*.liquid"],
+            "options": {
+                "tabWidth": 2,
+                "printWidth": 120,
+                "liquidSingleQuote": true,
+                "embeddedSingleQuote": true,
+                "indentSchema": false
+            }
+        }
+    ]
+}

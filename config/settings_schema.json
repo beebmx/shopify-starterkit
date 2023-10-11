@@ -1,0 +1,131 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Starter Kit",
+    "theme_version": "0.0.1",
+    "theme_author": "Bee business",
+    "theme_documentation_url": "https://github.com/beebmx/shopify-starterkit",
+    "theme_support_url": "https://github.com/beebmx/shopify-starterkit"
+  },
+  {
+    "name": "t:settings_schema.logo.name",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "t:settings_schema.logo.settings.logo_image.label"
+      },
+      {
+        "type": "range",
+        "id": "logo_width",
+        "min": 50,
+        "max": 300,
+        "step": 10,
+        "default": 100,
+        "unit": "px",
+        "label": "t:settings_schema.logo.settings.logo_width.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "t:settings_schema.logo.settings.favicon.label",
+        "info": "t:settings_schema.logo.settings.favicon.info"
+      }
+    ]
+  },
+  {
+    "name": "t:settings_schema.colors.name",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "t:settings_schema.colors.paragraph.default"
+      },
+      {
+        "type": "color",
+        "id": "colors_text",
+        "label": "t:settings_schema.colors.settings.text.label",
+        "default": "#36383B"
+      },
+      {
+        "type": "color",
+        "id": "colors_background",
+        "label": "t:settings_schema.colors.settings.background.label",
+        "default": "#F8FAFC"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.colors.title.primary",
+        "info": "t:settings_schema.colors.paragraph.primary"
+      },
+      {
+        "type": "color",
+        "id": "colors_primary",
+        "label": "t:settings_schema.colors.settings.primary.label",
+        "default": "#1C1E21"
+      },
+      {
+        "type": "color",
+        "id": "colors_contrast",
+        "label": "t:settings_schema.colors.settings.contrast.label",
+        "default": "#C5FC81"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.colors.title.secondary",
+        "info": "t:settings_schema.colors.paragraph.secondary"
+      },
+      {
+        "type": "color",
+        "id": "colors_secondary",
+        "label": "t:settings_schema.colors.settings.secondary.label",
+        "default": "#543C6E"
+      }
+    ]
+  },
+  {
+    "name": "t:settings_schema.typography.name",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:settings_schema.typography.settings.header__1.content"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_font",
+        "default": "poppins_n9",
+        "label": "t:settings_schema.typography.settings.type_header_font.label",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.typography.settings.header__2.content"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_body_font",
+        "default": "inter_n4",
+        "label": "t:settings_schema.typography.settings.type_body_font.label",
+        "info": "t:settings_schema.typography.settings.type_body_font.info"
+      }
+    ]
+  },
+  {
+    "name": "t:settings_schema.currency_format.name",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:settings_schema.currency_format.settings.content"
+      },
+      {
+        "type": "paragraph",
+        "content": "t:settings_schema.currency_format.settings.paragraph"
+      },
+      {
+        "type": "checkbox",
+        "id": "currency_code_enabled",
+        "label": "t:settings_schema.currency_format.settings.currency_code_enabled.label",
+        "default": true
+      }
+    ]
+  }
+]

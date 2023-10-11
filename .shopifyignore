@@ -1,0 +1,11 @@
+/.idea
+/node_modules
+/resources
+package.json
+package-lock.json
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+.prettierrc
+.prettierignore
+.npmrc

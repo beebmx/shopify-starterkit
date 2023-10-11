@@ -1,0 +1,7 @@
+RemoteAsset:
+  ignore:
+    - snippets/vite.liquid
+
+UnusedSnippet:
+  ignore:
+    - snippets/cookie.banner.liquid

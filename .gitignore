@@ -1,0 +1,15 @@
+/node_modules
+/vendor
+/.idea
+/.vscode
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+auth.json
+npm-debug.log
+.npmrc
+.php-cs-fixer.cache
+.DS_Store
+package-lock.json
+.npmrc
